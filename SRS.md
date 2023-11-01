@@ -126,7 +126,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Use%20Case1.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/b1e605c3702e54841702629c6a91a5ec9c2c0174/Image/register.png)
    
 **2.2.1 Siswa Register**
 

@@ -408,8 +408,8 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 
 **Job Desc**
 
-BAB 1 Pendahuluan
-1.1 Tujuan : Jimmy 
+BAB 1 Pendahuluan <br>
+1.1 Tujuan : Jimmy <br>
 1.2 Lingkup : Jimmy 
 1.3 Akronim, singkatan, definisi : Felix
 1.4 Referensi : Felix

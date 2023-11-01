@@ -161,7 +161,7 @@ Deskripsi Singkat : Siswa melakukan login terlebih dahulu sebelum masuk ke tampi
 Use Case : Siswa mengelola data cucian pelanggan
 
 Diagram:
-![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Mengelola%20data%20cucian%20pelanggan.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/f6a522128505baa629e83516880417a3c3ddd9b0/Image/Mengelola%20data%20cucian.png)
       
 Deskripsi Singkat : Siswa dapat mengelola data cucian pelanggan. Deskripsi langkah-langkah
 1. Siswa dapat menginput data dari cucian yang sudah dipesan oleh pelanggan ke sistem.

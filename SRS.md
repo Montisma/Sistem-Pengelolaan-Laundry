@@ -4,7 +4,7 @@
 
 <p align="center">1 November 2023</b>
 <p align="center">
-<img src="Image/Logo_Resmi_PCR.png/ >
+<img src="Image/Logo_Resmi_PCR.png/" >
 </p>
 
 <p align="center"><b>Sistem Pengelolaan Laundry <br>

@@ -4,7 +4,7 @@
 
 <p align="center">1 November 2023</b>
 <p align="center">
-<img src="[Image/Logo_Resmi_PCR.png/](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/3cb064e937c702c34af5565d37e9183eaab9dd00/Image/Logo_Resmi_PCR.png)" >
+<img src="https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/0c92beb34ac7bc306e1bf4223accdfb9f4b9ab57/Image/Logo_Resmi_PCR.png" >
 </p>
 
 <p align="center"><b>Sistem Pengelolaan Laundry <br>

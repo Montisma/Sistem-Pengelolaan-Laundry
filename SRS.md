@@ -67,7 +67,7 @@ Pada sistem pengelola laundry data ini akan menampilkan isi  yang sudah diinputk
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/0e2a2b658b7570b0661013017a99e65eca169154/Image/usecase.png)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/9b13e86d27b83b50b3c81a291b7684f02522fb92/Image/Use%20case%20diagram.png)
 
 Sistem Pengelolaan Laundry memiliki 2 user yaitu Siswa dan Pelanggan. Siswa memiliki fungsi yaitu mengelola data. Pelanggan untuk melihat status dari detail dari pemesanan.
 

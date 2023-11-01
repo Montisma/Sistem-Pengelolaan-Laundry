@@ -405,3 +405,41 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 | status| Varchar | Status dari suatu pesanan (selesai, belum selesai)|
 | tanggal_pemesanan | Date | Tanggal waktu pemesanan dibuat |
 | jenis_cucian | Int | Jenis cucian yang dipesan|
+
+<html>
+<body>
+
+
+<p align="center">
+BAB 1 Pendahuluan
+1.1 Tujuan : Jimmy 
+1.2 Lingkup : Jimmy 
+1.3 Akronim, singkatan, definisi : Felix
+1.4 Referensi : Felix
+1.5 Overview : Felix
+BAB 2 Gambaran Umum
+2.1 Perspektif Produk : Jimmy & Humberto
+2.1.1 Antarmuka Sistem  : Jimmy & Humberto
+2.1.2 Antarmuka pengguna : Humberto
+2.1.3 Antarmuka perangkat keras : Jimmy & Felix
+2.1.4 Antarmuka perangkat lunak : Felix
+2.1.5 Antarmuka Komunikasi : Jimmy
+2.1.6 Batasan memori : Jimmy
+2.1.7 Operasi-operas : Humberto
+2.1.8 Kebutuhan adaptasi : Felix
+2.2 Spesifikasi Kebutuhan fungsional : Jimmy & Humberto
+2.3 Spesifikasi Kebutuhan non-fungsional : Felix & Jimmy
+2.4 Karakteristik pengguna : Humberto & Felix
+2.5 Batasan-batasan : Humberto & Felix
+2.6 Asumsi-asumsi : Jimmy
+2.7 Kebutuhan Penyeimbang : Felix & Humberto
+BAB III Requirement specification
+3.1 Persyaratan Antarmuka Eksternal : Jimmy
+3.2 Functional Requirement : Jimmy
+3.3 Struktur Detail Kebutuhan Non-Fungsional : Humberto & Jimmy
+FIGMA : Humberto
+GitHub : Jimmy & Humberto
+</p>
+
+</body>
+</html>

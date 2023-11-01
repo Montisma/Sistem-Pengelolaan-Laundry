@@ -126,7 +126,7 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![]()
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/7dc67dce4768e124ae31efbab374186bb1c2af2f/Image/Kebutuhan%20Fungsional.png)
    
 **2.2.1 Siswa Register**
 

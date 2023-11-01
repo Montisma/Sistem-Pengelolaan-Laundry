@@ -410,30 +410,30 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 
 BAB 1 Pendahuluan <br>
 1.1 Tujuan : Jimmy <br>
-1.2 Lingkup : Jimmy 
-1.3 Akronim, singkatan, definisi : Felix
-1.4 Referensi : Felix
-1.5 Overview : Felix
-BAB 2 Gambaran Umum
-2.1 Perspektif Produk : Jimmy & Humberto
-2.1.1 Antarmuka Sistem  : Jimmy & Humberto
-2.1.2 Antarmuka pengguna : Humberto
-2.1.3 Antarmuka perangkat keras : Jimmy & Felix
-2.1.4 Antarmuka perangkat lunak : Felix
-2.1.5 Antarmuka Komunikasi : Jimmy
-2.1.6 Batasan memori : Jimmy
-2.1.7 Operasi-operas : Humberto
-2.1.8 Kebutuhan adaptasi : Felix
-2.2 Spesifikasi Kebutuhan fungsional : Jimmy & Humberto
-2.3 Spesifikasi Kebutuhan non-fungsional : Felix & Jimmy
-2.4 Karakteristik pengguna : Humberto & Felix
-2.5 Batasan-batasan : Humberto & Felix
-2.6 Asumsi-asumsi : Jimmy
-2.7 Kebutuhan Penyeimbang : Felix & Humberto
-BAB III Requirement specification
-3.1 Persyaratan Antarmuka Eksternal : Jimmy
-3.2 Functional Requirement : Jimmy
-3.3 Struktur Detail Kebutuhan Non-Fungsional : Humberto & Jimmy
-FIGMA : Humberto
+1.2 Lingkup : Jimmy <br>
+1.3 Akronim, singkatan, definisi : Felix <br>
+1.4 Referensi : Felix <br>
+1.5 Overview : Felix <br>
+BAB 2 Gambaran Umum <br>
+2.1 Perspektif Produk : Jimmy & Humberto <br>
+2.1.1 Antarmuka Sistem  : Jimmy & Humberto <br>
+2.1.2 Antarmuka pengguna : Humberto <br>
+2.1.3 Antarmuka perangkat keras : Jimmy & Felix <br>
+2.1.4 Antarmuka perangkat lunak : Felix <br>
+2.1.5 Antarmuka Komunikasi : Jimmy <br>
+2.1.6 Batasan memori : Jimmy <br>
+2.1.7 Operasi-operas : Humberto <br>
+2.1.8 Kebutuhan adaptasi : Felix 
+2.2 Spesifikasi Kebutuhan fungsional : Jimmy & Humberto <br>
+2.3 Spesifikasi Kebutuhan non-fungsional : Felix & Jimmy <br>
+2.4 Karakteristik pengguna : Humberto & Felix <br>
+2.5 Batasan-batasan : Humberto & Felix <br>
+2.6 Asumsi-asumsi : Jimmy <br>
+2.7 Kebutuhan Penyeimbang : Felix & Humberto <br>
+BAB III Requirement specification <br>
+3.1 Persyaratan Antarmuka Eksternal : Jimmy <br>
+3.2 Functional Requirement : Jimmy <br>
+3.3 Struktur Detail Kebutuhan Non-Fungsional : Humberto & Jimmy <br>
+FIGMA : Humberto <br>
 GitHub : Jimmy & Humberto
 

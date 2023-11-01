@@ -93,7 +93,7 @@ Antarmuka pengguna merupakan proses langsung  yang akan dilihat oleh pelanggan. 
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/antarmukaperangkatkeras.png)
 
 Perangkat keras  pada Sistem pengelolaan Laundry merujuk pada perangkat fisik yang akan  menjalankan aplikasi seperti : 
 1. Server: menyimpan data pelanggan, pesanan, dan informasi lainnya
@@ -141,7 +141,7 @@ Tidak ada
 Use Case : Register
 
 Diagram : 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login%20kepdes.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Siswaregister.png)
 
 Deskripsi Singkat
 Deskripsi Singkat : Siswa melakukan register terlebih dahulu sebelum masuk ke tampilan login. Deskripsi langkah-langkah
@@ -155,7 +155,7 @@ Deskripsi Singkat : Siswa melakukan register terlebih dahulu sebelum masuk ke ta
 Use Case: Siswa Login
 
 Diagram: 
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kepdes%20generate%20laporan.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/login.png)
 
 Deskripsi Singkat : Siswa melakukan login terlebih dahulu sebelum masuk ke tampilan home. Deskripsi langkah-langkah
 1. Siswa melakukan login dengan username dan password yang sudah ter-regis
@@ -168,7 +168,7 @@ Deskripsi Singkat : Siswa melakukan login terlebih dahulu sebelum masuk ke tampi
 Use Case : Siswa Mengelola data pelanggan
 
 Diagram :
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20login.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Mengelola%20Data%20Pelanggan.png)
 
 Deskripsi Singkat : Siswa yang sudah login dapat memilih untuk mengelola data pelanggan. Deskripsi langkah-langkah
 1. Siswa dapat menginput data dari pelanggan yang sudah melakukan pemesanan jasa laundry ke sistem dari akun yang sudah di regis oleh pelanggan.
@@ -180,7 +180,7 @@ Deskripsi Singkat : Siswa yang sudah login dapat memilih untuk mengelola data pe
 Use Case : Siswa mengelola data cucian pelanggan
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20kelola%20data2.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Mengelola%20data%20cucian%20pelanggan.png)
       
 Deskripsi Singkat : Siswa dapat mengelola data cucian pelanggan. Deskripsi langkah-langkah
 1. Siswa dapat menginput data dari cucian yang sudah dipesan oleh pelanggan ke sistem.
@@ -191,7 +191,7 @@ Deskripsi Singkat : Siswa dapat mengelola data cucian pelanggan. Deskripsi langk
 Use Case : Siswa mengelola data pesanan
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20lihat%20data%20kependudukan.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Mengelola%20data%20pesanan.png)
 
 Deskripsi Singkat : Siswa dapat mengelola data pesanan yang ada. Deskripsi langkah-langkah
 1. Siswa menginput data dari pesanan pelanggan yang sudah melakukan pemesanan jasa laundry ke sistem.
@@ -203,7 +203,7 @@ Deskripsi Singkat : Siswa dapat mengelola data pesanan yang ada. Deskripsi langk
 Use Case: Pelanggan Register
 
 Diagram:
-![](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20admin%20generate%20laporan.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/pelangganregister.png)
 
 Deskripsi Singkat : Pelanggan melakukan register terlebih dahulu sebelum masuk ke tampilan login. Deskripsi langkah-langkah
 1. Pelanggan melakukan register dengan username dan password
@@ -216,7 +216,7 @@ Deskripsi Singkat : Pelanggan melakukan register terlebih dahulu sebelum masuk k
 Use Case: Pelanggan Login
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/pelangganlogin.png)
 
 Deskripsi Singkat : Pelanggan melakukan login terlebih dahulu sebelum masuk ke tampilan home. Deskripsi langkah-langkah
 1. Pelanggan melakukan login dengan username dan password yang sudah ter-regis 
@@ -229,7 +229,7 @@ Deskripsi Singkat : Pelanggan melakukan login terlebih dahulu sebelum masuk ke t
 Use Case: Cek Status Cucian
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/cekstatus.png)
 
 Deskripsi Singkat : Pelanggan dapat melihat status cucian yang sedang dalam pesanan
 1. Pelanggan yang sudah melakukan pemesanan dapat melihat status cucian pesanan
@@ -240,7 +240,7 @@ Deskripsi Singkat : Pelanggan dapat melihat status cucian yang sedang dalam pesa
 Use Case: Melihat detail cucian
 
 Diagram:
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/use%20case%20kelola%20user.png)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/melihatdetailcucian.png)
 
 Deskripsi Singkat : Pelanggan dapat melihat detail dari pesanan yang sedang dicuci
 1. Pelanggan yang sudah melakukan pemesanan dapat melihat detail cucian pesanan
@@ -405,7 +405,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/ERD%20Laundry.jpg)
 
 **Tabel Siswa**
 

@@ -155,19 +155,8 @@ Deskripsi Singkat : Siswa melakukan login terlebih dahulu sebelum masuk ke tampi
 3. Bila sukses sistem akan mengarahkan ke halaman home
 4. Bila gagal sistem akan menampilkan peringatan dan redirect ke halaman login
 
-**2.2.3 Siswa mengelola data pelanggan**
-
-Use Case : Siswa Mengelola data pelanggan
-
-Diagram :
-![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Mengelola%20Data%20Pelanggan.png)
-
-Deskripsi Singkat : Siswa yang sudah login dapat memilih untuk mengelola data pelanggan. Deskripsi langkah-langkah
-1. Siswa dapat menginput data dari pelanggan yang sudah melakukan pemesanan jasa laundry ke sistem dari akun yang sudah di regis oleh pelanggan.
-2. Data-data pelanggan dikelola seperti nomor hp, alamat, nama lengkap
-3. Siswa melakukan input data pelanggan yang melakukan pemesanan jasa laundry
       
-**2.2.4 Siswa mengelola data cucian pelanggan**
+**2.2.3 Siswa mengelola data cucian pelanggan**
 
 Use Case : Siswa mengelola data cucian pelanggan
 
@@ -178,7 +167,7 @@ Deskripsi Singkat : Siswa dapat mengelola data cucian pelanggan. Deskripsi langk
 1. Siswa dapat menginput data dari cucian yang sudah dipesan oleh pelanggan ke sistem.
 2. Data cucian pelanggan yang diinput berupa deskripsi pemesanan yang sudah dilakukan seperti jenis barang cucian, berat cucian, total pakaian.
 
-**2.2.5 Siswa mengelola data pesanan**
+**2.2.4 Siswa mengelola data pesanan**
 
 Use Case : Siswa mengelola data pesanan
 
@@ -190,7 +179,7 @@ Deskripsi Singkat : Siswa dapat mengelola data pesanan yang ada. Deskripsi langk
 2. Data-data pesanan dikelola seperti status pemesanan, jumlah pesanan
 
    
-**2.2.6 Pelanggan Register**
+**2.2.5 Pelanggan Register**
 
 Use Case: Pelanggan Register
 
@@ -203,7 +192,7 @@ Deskripsi Singkat : Pelanggan melakukan register terlebih dahulu sebelum masuk k
 3. Bila sukses sistem akan mengarahkan ke halaman login
 4. Bila gagal sistem akan menampilkan peringatan dan redirect ke halaman register
 
-**2.2.7 Pelanggan Login**
+**2.2.6 Pelanggan Login**
 
 Use Case: Pelanggan Login
 
@@ -216,7 +205,7 @@ Deskripsi Singkat : Pelanggan melakukan login terlebih dahulu sebelum masuk ke t
 3. Bila sukses sistem akan mengarahkan ke halaman home
 4. Bila gagal sistem akan menampilkan peringatan dan redirect ke halaman login
 
-**2.2.8 Cek Status Cucian**
+**2.2.7 Cek Status Cucian**
 
 Use Case: Cek Status Cucian
 
@@ -227,7 +216,7 @@ Deskripsi Singkat : Pelanggan dapat melihat status cucian yang sedang dalam pesa
 1. Pelanggan yang sudah melakukan pemesanan dapat melihat status cucian pesanan
 2. Status cucian berupa deskripsi seperti sudah selesai, belum selesai
 
-**2.2.9 Melihat detail cucian**
+**2.2.8 Melihat detail cucian**
 
 Use Case: Melihat detail cucian
 
@@ -301,25 +290,13 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Siswa dapat masuk ke SIstem Pengelolaan Laundry SMKN 1 Pekanbaru dengan akun yang sudah ada |
 | Exception Push | Username dan password salah |
    
-**3.2.3 Siswa Mengelola data pelanggan**
-
-|  |  |
-|--|--|
-| Nama Fungsi | Mengelola data pelanggan |
-| Xref | Bagian 2.2.3, Siswa Mengelola data pelanggan |
-| Trigger | Membuka bagian pengelolaan data pelanggan pada sistem |
-| Precondition | Sudah melakukan berada pada halaman utama admin |
-| Basic Path | 1. Siswa sudah masuk kedalam sistem dalam keadaan login <br> 2. Siswa membuka bagian data pelanggan <br> 3. Siswa dapat mengelola data dari pelanggan yang akan melakukan pemesanan |
-| Alternative | Tidak ada |
-| Post Condition | Data pelanggan akan tersimpan dalam sistem |
-| Exception Push | Input data pelanggan diluar dari yang disediakan |
    
-**3.2.4 Siswa Mengelola data cucian pelanggan**
+**3.2.3 Siswa Mengelola data cucian pelanggan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola data cucian pelanggan |
-| Xref | Bagian 2.2.4, Siswa Mengelola data cucian pelanggan |
+| Xref | Bagian 2.2.3, Siswa Mengelola data cucian pelanggan |
 | Trigger | Membuka bagian pengelolaan data cucian pelanggan pada sistem |
 | Precondition | Sudah ada yang melakukan pemesanan dan data pelanggan sudah ada |
 | Basic Path | 1. Siswa sudah masuk kedalam sistem dalam keadaan login <br> 2. Siswa membuka bagian data cucian pelanggan <br> 3. Siswa dapat mengelola data cucian dari pelanggan yang sudah melakukan pemesanan |
@@ -327,12 +304,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Data cucian pelanggan dapat dikelola oleh Siswa |
 | Exception Push | Input data cucian pelanggan diluar dari yang disediakan |
    
-**3.2.5 Siswa Mengelola data pesanan**
+**3.2.4 Siswa Mengelola data pesanan**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola data cucian |
-| Xref | Bagian 2.2.5, Siswa mengelola data pesanan |
+| Xref | Bagian 2.2.4, Siswa mengelola data pesanan |
 | Trigger | Membuka bagian pengelolaan data pesanan pada sistem |
 | Precondition | Sudah ada yang melakukan pemesanan dan data pelanggan sudah ada |
 | Basic Path | 1. Siswa sudah masuk kedalam sistem dalam keadaan login <br> 2. Siswa membuka bagian data pesanan <br> 3. Siswa dapat mengelola data pesanan yang sedang ada, yang berisikan detail pemesanan dan juga status dari pemesanan|
@@ -340,12 +317,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Data pesanan dapat dikelola oleh Siswa |
 | Exception Push | Input data pesanan diluar dari yang disediakan |
    
-**3.2.6 Pelanggan Register**
+**3.2.5 Pelanggan Register**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Register |
-| Xref | Bagian 2.2.6, Register Pelanggan |
+| Xref | Bagian 2.2.5, Register Pelanggan |
 | Trigger | Membuka sistem pengelolaan laundry SMK Negeri 1 Pekanbaru |
 | Precondition | Halaman Register |
 | Basic Path | 1. Pelanggan mengisi form register dengan username dan password <br> 2. Pelanggan mengklik tombol regis <br> 3. Sistem melakukan validasi regis <br> 4. Bila sukses sistem akan mengarahkan ke halaman login <br> 5. Bila gagal sistem akan menampilkan peringatan |
@@ -353,12 +330,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Pelanggan dapat melakukan login ke SIstem Pengelolaan Laundry SMKN 1 Pekanbaru |
 | Exception Push | Username dan password salah |
 
-**3.2.7  Pelanggan Login**
+**3.2.6  Pelanggan Login**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Login |
-| Xref | Bagian 2.2.7, Login Pelanggan |
+| Xref | Bagian 2.2.6, Login Pelanggan |
 | Trigger | Membuka sistem pengelolaan laundry SMK Negeri 1 Pekanbaru | 
 | Precondition | Sudah melakukan register |
 | Basic Path | 1. Pelanggan mengisi form login dengan username dan password yang sudah diregis <br> 2. Pelanggan mengklik tombol login <br> 3. Sistem melakukan validasi regis <br> 4. Bila sukses sistem akan mengarahkan ke halaman utama <br> 5. Bila gagal sistem akan menampilkan peringatan  |
@@ -366,12 +343,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Pelanggan dapat masuk ke SIstem Pengelolaan Laundry SMKN 1 Pekanbaru dengan akun yang sudah ada |
 | Exception Push | Username dan password salah |
 
-**3.2.8 Pelanggan mengecek status cucian**
+**3.2.7 Pelanggan mengecek status cucian**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Cek status cucian |
-| Xref | Bagian 2.2.8,  Pelanggan mengecek status cucian |
+| Xref | Bagian 2.2.7,  Pelanggan mengecek status cucian |
 | Trigger | Membuka bagian cek status data pesanan pada sistem | 
 | Precondition | Pelanggan masih memiliki pesanan yang belum selesai |
 | Basic Path | 1. Pelanggan sudah masuk kedalam sistem dalam keadaan login <br> 2. Pelanggan membuka bagian data pesanan <br> 3. Pelanggan dapat melihat status dari pemesanan apakah sudah selesai ataupun belum |
@@ -379,12 +356,12 @@ Logika Struktur terdapat pada bagian 3.3.1
 | Post Condition | Status diketahui oleh pelanggan |
 | Exception Push | - |
 
-**3.2.9 Pelanggan melihat detail cucian**
+**3.2.8 Pelanggan melihat detail cucian**
 
 |  |  |
 |--|--|
 | Nama Fungsi | Melihat detail cucian |
-| Xref | Bagian 2.2.9,  Pelanggan melihat detail cucian |
+| Xref | Bagian 2.2.8,  Pelanggan melihat detail cucian |
 | Trigger | Membuka bagian details pemesanan | 
 | Precondition | Pelanggan masih memiliki pesanan yang belum selesai |
 | Basic Path | 1. Pelanggan sudah masuk kedalam sistem dalam keadaan login <br> 2. Pelanggan membuka bagian data pesanan <br> 3. Pelanggan dapat melihat detail dari pemesanan yang sudah dipesan |

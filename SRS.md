@@ -75,7 +75,8 @@ Pada sistem pengelola laundry data ini akan menampilkan isi  yang sudah diinputk
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
+![enter image description here]
+(Image/usecase.png)
 
 Sistem Pengelolaan Laundry memiliki 2 user yaitu Siswa dan Pelanggan. Siswa memiliki fungsi yaitu mengelola data. Pelanggan untuk melihat status dari detail dari pemesanan.
 
@@ -435,11 +436,3 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 | status| Varchar | Status dari suatu pesanan (selesai, belum selesai)|
 | tanggal_pemesanan | Date | Tanggal waktu pemesanan dibuat |
 | jenis_cucian | Int | Jenis cucian yang dipesan|
-
-**Tabel Pesanan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_agama| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| agama| varchar | berisi agama penduduk |

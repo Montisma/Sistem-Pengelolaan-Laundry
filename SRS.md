@@ -406,11 +406,8 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 | tanggal_pemesanan | Date | Tanggal waktu pemesanan dibuat |
 | jenis_cucian | Int | Jenis cucian yang dipesan|
 
-<html>
-<body>
+**Job Desc**
 
-
-<p align="center">
 BAB 1 Pendahuluan
 1.1 Tujuan : Jimmy 
 1.2 Lingkup : Jimmy 
@@ -439,7 +436,4 @@ BAB III Requirement specification
 3.3 Struktur Detail Kebutuhan Non-Fungsional : Humberto & Jimmy
 FIGMA : Humberto
 GitHub : Jimmy & Humberto
-</p>
 
-</body>
-</html>

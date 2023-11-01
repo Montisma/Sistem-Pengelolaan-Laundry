@@ -4,8 +4,7 @@
 
 <p align="center">1 November 2023</b>
 <p align="center">
-<img src="https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/main/Image/Logo_Resmi_PCR.png" >
- 
+<img src="Image/Logo_Resmi_PCR.png/ >
 </p>
 
 <p align="center"><b>Sistem Pengelolaan Laundry <br>
@@ -76,7 +75,7 @@ Pada sistem pengelola laundry data ini akan menampilkan isi  yang sudah diinputk
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](Image/usecase.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20sistem1.png)
 
 Sistem Pengelolaan Laundry memiliki 2 user yaitu Siswa dan Pelanggan. Siswa memiliki fungsi yaitu mengelola data. Pelanggan untuk melihat status dari detail dari pemesanan.
 
@@ -93,7 +92,7 @@ Antarmuka pengguna merupakan proses langsung  yang akan dilihat oleh pelanggan. 
  
 **2.1.3 Antarmuka perangkat keras**
 
-![enter image description here](Image/antarmukaperangkatkeras.png)
+![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/antarmuka%20perangkat%20keras%202.png)
 
 Perangkat keras  pada Sistem pengelolaan Laundry merujuk pada perangkat fisik yang akan  menjalankan aplikasi seperti : 
 1. Server: menyimpan data pelanggan, pesanan, dan informasi lainnya
@@ -340,180 +339,104 @@ Logika Struktur terdapat pada bagian 3.3.1
 |  |  |
 |--|--|
 | Nama Fungsi | Mengelola data cucian |
-| Xref | Bagian 2.2.5, View data kependudukan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | Halaman form input data |
-| Basic Path | 1. Sistem akan menampilkan data kependudukan desa Lohbener. <br> 2. Admin melihat data dan dapat mengedit atau menghapusnya. <br> 3. Sistem menampilkan edit data kependudukan <br>4. Admin  mengedit data kependudukan yang baru atau yang sudah ada<br>5. Sistem melakukan validasi jika data sudah ada maka muncul peringatan jika belum sistem akan menyimpan|
+| Xref | Bagian 2.2.5, Siswa mengelola data pesanan |
+| Trigger | Membuka bagian pengelolaan data pesanan pada sistem |
+| Precondition | Sudah ada yang melakukan pemesanan dan data pelanggan sudah ada |
+| Basic Path | 1. Siswa sudah masuk kedalam sistem dalam keadaan login <br> 2. Siswa membuka bagian data pesanan <br> 3. Siswa dapat mengelola data pesanan yang sedang ada, yang berisikan detail pemesanan dan juga status dari pemesanan|
 | Alternative | Tidak ada |
-| Post Condition | Halaman data kependudukan |
-| Exception Push | Tidak ada koneksi |
+| Post Condition | Data pesanan dapat dikelola oleh Siswa |
+| Exception Push | Input data pesanan diluar dari yang disediakan |
    
-**3.2.6 Cetak Laporan**
+**3.2.6 Pelanggan Register**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Laporan |
-| Xref | Bagian 2.2.6, Cetak Laporan |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener |
-| Precondition | halaman utama admin |
-| Basic Path | 1. Admin mengklik tombol laporan <br> 2. Sistem menampilkan laporan kependudukan <br> 3. Admin memilih combobox tersebut dan klik tombol lihat <br>4. Sistem akan menampilkan hasil laporan. <br>5. Admin mencetak laporan  |
+| Nama Fungsi | Register |
+| Xref | Bagian 2.2.6, Register Pelanggan |
+| Trigger | Membuka sistem pengelolaan laundry SMK Negeri 1 Pekanbaru |
+| Precondition | Halaman Register |
+| Basic Path | 1. Pelanggan mengisi form register dengan username dan password <br> 2. Pelanggan mengklik tombol regis <br> 3. Sistem melakukan validasi regis <br> 4. Bila sukses sistem akan mengarahkan ke halaman login <br> 5. Bila gagal sistem akan menampilkan peringatan |
 | Alternative | Tidak ada |
-| Post Condition | Halaman Laporan |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Post Condition | Pelanggan dapat melakukan login ke SIstem Pengelolaan Laundry SMKN 1 Pekanbaru |
+| Exception Push | Username dan password salah |
 
-**3.2.7  Admin mengelola user**
+**3.2.7  Pelanggan Login**
 
 |  |  |
 |--|--|
-| Nama Fungsi | Mengelola user |
-| Xref | Bagian 2.2.7, Mengelola user |
-| Trigger | Membuka aplikasi Manajemen Administrasi Data Kependudukan Desa Lohbener | 
-| Precondition | halaman utama admin |
-| Basic Path | 1. Sistem menampilkan form.<br>2. Admin mengisi form user dengan jabatan, tanggal mulai, tanggal berakhir, dll kemudian klik tombol simpan.<br>3. Sistem akan menyimpan data user ke database.  |
-| Post Condition | Halaman user |
-| Exception Push | Tidak ada koneksi, data belum diinput |
+| Nama Fungsi | Login |
+| Xref | Bagian 2.2.7, Login Pelanggan |
+| Trigger | Membuka sistem pengelolaan laundry SMK Negeri 1 Pekanbaru | 
+| Precondition | Sudah melakukan register |
+| Basic Path | 1. Pelanggan mengisi form login dengan username dan password yang sudah diregis <br> 2. Pelanggan mengklik tombol login <br> 3. Sistem melakukan validasi regis <br> 4. Bila sukses sistem akan mengarahkan ke halaman utama <br> 5. Bila gagal sistem akan menampilkan peringatan  |
+| Alternative | Tidak ada |
+| Post Condition | Pelanggan dapat masuk ke SIstem Pengelolaan Laundry SMKN 1 Pekanbaru dengan akun yang sudah ada |
+| Exception Push | Username dan password salah |
+
+**3.2.8 Pelanggan mengecek status cucian**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Cek status cucian |
+| Xref | Bagian 2.2.8,  Pelanggan mengecek status cucian |
+| Trigger | Membuka bagian cek status data pesanan pada sistem | 
+| Precondition | Pelanggan masih memiliki pesanan yang belum selesai |
+| Basic Path | 1. Pelanggan sudah masuk kedalam sistem dalam keadaan login <br> 2. Pelanggan membuka bagian data pesanan <br> 3. Pelanggan dapat melihat status dari pemesanan apakah sudah selesai ataupun belum |
+| Alternative | Tidak ada |
+| Post Condition | Status diketahui oleh pelanggan |
+| Exception Push | - |
+
+**3.2.9 Pelanggan melihat detail cucian**
+
+|  |  |
+|--|--|
+| Nama Fungsi | Melihat detail cucian |
+| Xref | Bagian 2.2.9,  Pelanggan melihat detail cucian |
+| Trigger | Membuka bagian details pemesanan | 
+| Precondition | Pelanggan masih memiliki pesanan yang belum selesai |
+| Basic Path | 1. Pelanggan sudah masuk kedalam sistem dalam keadaan login <br> 2. Pelanggan membuka bagian data pesanan <br> 3. Pelanggan dapat melihat detail dari pemesanan yang sudah dipesan |
+| Alternative | Tidak ada |
+| Post Condition | Details pemesanan dapat dilihat |
+| Exception Push | - |
    
 3.3 Struktur Detail Kebutuhan Non-Fungsional
 ----------
 **3.3.1 Logika Struktur Data**
-Struktur data logika pada sistem Aplikasi presensi menggunakan kehadiran terdapat struktur Database yang dijelaskan menggunakan ERD.
+Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Database yang dijelaskan menggunakan ERD.
 
 ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/erd_proyek2.png)
 
-**Tabel User**
+**Tabel Siswa**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_user| int | Nomer auto increment Id_user|
-| Username | varchar | berisikan Nik untuk akses login user dan username untuk akses admin |
-| Password | varchar | berisikan password untuk login admin dan user |
-| level | varchar | untuk membedakan level saat login antara admin dan user
+| NISN| Int | NISN dari Siswa|
+| Username | Varchar | Username dari siswa |
+| Password | Varchar | Password dari username siswa |
+| Email | Varchar | Email siswa yang digunakan untuk membuat akun
+| No_HP | Int | Nomor Hp dari siswa
 
-**Tabel Warga**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| NIK | varchar | nomer kependudukan|
-| Nama | varchar | nomer kependudukan|
-| jns_kelamin | varchar | Identifikasi jenis kelamin|
-| Tgl_lahir | date | tanggal lahir peserta |
-| Agama | varchar | Identifikasi agama |
-
-**Tabel Pegawai**
+**Tabel Pelanggan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_pegawai| int | Nomer auto increment Id_bioadmin|
-| Id_user| int | untuk mengambil username dan password admin pada tabel user|
-| nik| varchar | nik admin|
-| jabatan | varchar | mendefinisikan level user |
-| tgl_masuk | date | awal jabatan|
-| tgl_keluar | date | akhir jabatan|
+| ID_Pelanggan | Int | ID dari pelanggan|
+| Username | Varchar | Username dari pelanggan|
+| Password | Varchar | Password dari username pelanggan|
+| Email | Varchar | Email pelanggan yang digunakan untuk membuat akun |
+| No_HP | Int | Nomor Hp dari pelanggan |
 
-**Tabel Kelahiran**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kelahiran| int | Nomer auto increment Id_kelahiran|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_lahir| date | tanggal lahir anak |
-| jns_kelamin| varchar | jenis kelamin anak|
-| ayah | varchar | nama ayah|
-| ibu | varchar | nama ibu|
-| tmp_lahir| varchar | tempat lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
-
-**Tabel Kematian**
+**Tabel Pesanan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| Id_kematian| int | Nomer auto increment Id_kematian|
-| Id_warga| int | foreignt key tabel warga |
-| tmp_kematian| varchar | tempat lahir anak |
-| tgl_kematian| date | tanggal lahir anak |
-| rt | int | nomor rt|
-| rw | int | nomor rw|
+| ID_Pesanan| Int | ID dari pesanan yang dibuat|
+| berat| Int | Berat dari suatu pesanan|
+| status| Varchar | Status dari suatu pesanan (selesai, belum selesai)|
+| tanggal_pemesanan | Date | Tanggal waktu pemesanan dibuat |
+| jenis_cucian | Int | Jenis cucian yang dipesan|
 
-**Tabel Pekerjaan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pekerjaan| int | Nomer auto increment Id_pekerjaan|
-| Id_warga| int | foreignt key tabel warga |
-| pekerjaan| varchar | pekerjaan masyarakat  |
-| tgl_input | date | tanggal input pekerjaan |
-
-**Tabel Pendidikan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pendidikan| int | Nomer auto increment Id_pendidikan|
-| Id_warga| int | foreignt key tabel warga |
-| pendidikan| varchar | pendidikan masyarakat  |
-| tgl_masuk | date | tanggal masuk pendidikan |
-
-**Tabel ktp**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_ktp| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_ktp| varchar | Identifikasi memiliki atau belum memiliki ktp |
-| masa_berlaku | date | tanggal berlaku ktp |
-
-**Tabel kk**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kk| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| kepala_keluarga| varchar | nama kepala keluarga |
-| no_kk | varchar | nomor kk |
-
-**Tabel pindah**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pindah| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_pindah | date | tanggal akan pindah |
-| ket | varchar | alamat pindah |
-
-**Tabel datang**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_datang| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| tgl_datang | date | tanggal kedatangan |
-| ket | varchar | alamat sebelum datang |
-
-**Tabel pilih**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_pilih| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_pilih | varchar | hak pilih |
-
-**Tabel kawin**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_kawin| varchar | Nomer auto increment Id_angdes|
-| Id_warga| int | foreignt key tabel warga |
-| status_kawin | varchar | status warga |
-
-**Tabel Laporan**
-
-| Data Item | Type | Deskripsi |
-| ------ | ------ | ------ |
-| Id_laporan| int | Nomer auto increment Id_laporan|
-| Id_warga| int | foreignt key tabel warga |
-| laporan | varchar | berisi laporan kependudukan |
-
-**Tabel Agama**
+**Tabel Pesanan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |

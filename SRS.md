@@ -407,6 +407,7 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 | jenis_cucian | Int | Jenis cucian yang dipesan|
 
 **Job Desc**
+----------
 
 BAB 1 Pendahuluan <br>
 1.1 Tujuan : Jimmy <br>

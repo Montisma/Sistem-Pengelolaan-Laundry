@@ -4,7 +4,7 @@
 
 <p align="center">1 November 2023</b>
 <p align="center">
-<img src="Image/Logo_Resmi_PCR.png/" >
+<img src="[Image/Logo_Resmi_PCR.png/](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/3cb064e937c702c34af5565d37e9183eaab9dd00/Image/Logo_Resmi_PCR.png)" >
 </p>
 
 <p align="center"><b>Sistem Pengelolaan Laundry <br>
@@ -75,7 +75,7 @@ Pada sistem pengelola laundry data ini akan menampilkan isi  yang sudah diinputk
 
 **2.1.1 Antarmuka sistem**
 
-![enter image description here](Image/usecase.png)
+![enter image description here]()
 
 Sistem Pengelolaan Laundry memiliki 2 user yaitu Siswa dan Pelanggan. Siswa memiliki fungsi yaitu mengelola data. Pelanggan untuk melihat status dari detail dari pemesanan.
 
@@ -85,8 +85,9 @@ Antarmuka pengguna merupakan proses langsung  yang akan dilihat oleh pelanggan. 
 
 |  |  |
 |--|--|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Login.png) Pada halaman ini menampilkan halaman utama dari Sistem ini.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Halaman%20Dashboard.png) Pada halaman ini menjelaskan mengenai Sistem Laundry ini.|
-| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Dropdone%20Kependudukan.png) Pada halaman ini menampilkan informasi mengenai kontak yang dapat dihubungi.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Agama.png) Pada halaman user, terdapat Wash Your Clothes yang menampilkan cucian dan harga cucian, kemudian washing status yang menampilkan status pencucian|
+| ![enter image description here]([Image/tampilan awal.png](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/3cb064e937c702c34af5565d37e9183eaab9dd00/Image/tampilan%20awal.png)) Pada halaman ini menampilkan halaman utama dari Sistem ini.| ![enter image description here]([Image/About.png](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/3cb064e937c702c34af5565d37e9183eaab9dd00/Image/About.png)) Pada halaman ini menjelaskan mengenai Sistem Laundry ini.|
+| ![enter image description here]([Image/contactus.png](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/3cb064e937c702c34af5565d37e9183eaab9dd00/Image/contactus.png)) Pada halaman ini menampilkan informasi mengenai kontak yang dapat dihubungi.| ![enter image description here]([Image/login.png](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/3cb064e937c702c34af5565d37e9183eaab9dd00/Image/login.png)) Pada halaman user, terdapat Wash Your Clothes yang menampilkan cucian dan harga cucian, kemudian washing status yang menampilkan status pencucian|
+| ![enter image description here]([https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pekerjaan.png](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/d58612337d9375442023e9d7976b1f9dd87e17f3/Image/register.png)) Pada Register,  user yang tidak memiliki akun maka diminta untuk mengisi username, email, dan password.| ![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/d58612337d9375442023e9d7976b1f9dd87e17f3/Image/register.png) Pada halaman user, terdapat Wash Your Clothes yang menampilkan cucian dan harga cucian, kemudian washing status yang menampilkan status pencucian.|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pekerjaan.png) Disaat user memilih tombol See Details, akan menuju ke halaman ini yang berisi detail-detail pencucian secara rinci.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Warga.png) Pada halaman ini, user dapat mengubah data diri.|
 | ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Pendidikan.png) Pada halaman admin, menampilkan pencucian-pencucian dari pelanggan, disini juga admin dapat mencari nama user untuk melihat berapa banyak user telah mencuci. Admin juga dapat menambah cucian.| ![enter image description here](https://raw.githubusercontent.com/jakariaaa27/RPL-D-1/master/Image%20SRS/Input%20Angka%20Kelahiran.png) Pada pop icon ini, admin mengisi username, tipe pencucian, dan berat dari cucian user.|
  

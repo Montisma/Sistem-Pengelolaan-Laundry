@@ -126,14 +126,14 @@ Tidak ada
    
 2.2 Spesifikasi Kebutuhan fungsional
 ----------
-![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/b1e605c3702e54841702629c6a91a5ec9c2c0174/Image/register.png)
+![]()
    
 **2.2.1 Siswa Register**
 
 Use Case : Register
 
 Diagram : 
-![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/Siswaregister.png)
+![](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/b1e605c3702e54841702629c6a91a5ec9c2c0174/Image/register.png)
 
 Deskripsi Singkat
 Deskripsi Singkat : Siswa melakukan register terlebih dahulu sebelum masuk ke tampilan login. Deskripsi langkah-langkah

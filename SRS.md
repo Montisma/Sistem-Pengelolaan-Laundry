@@ -1,23 +1,16 @@
 <html>
 <body>
-<div align="center"><h1> Software Requirements Spesification</h1></div>
 
-<p align="center">1 November 2023</b>
+
 <p align="center">
 <img src="https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/214c5fffefb0f73a849ef568a846369a17efe66d/Image/Software%20Requirements%20Specification-1%20(1)-1.png" >
 </p>
 
-<p align="center"><b>Sistem Pengelolaan Laundry <br>
-</b>
-<p align="center">Kelompok 5 <br>
- Jimmy Tan (2257301065)<br>
- Humberto (2257301056)<br>
- Felix Immanuel (2257301046)<br><br><br>
 
-<p align="center"><b>Prodi Sistem Informasi</b><br>
-<p align="center"><b>Politeknik Caltex Riau</b>
-<p align="center"><b>2023</b>
-</p>
+
+
+
+
 </body>
 </html>
 

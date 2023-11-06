@@ -18,11 +18,11 @@
 ----------
 1.1 Tujuan
 ----------
-Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengelola Laundry SMK Negeri 1 Pekanbaru". Dokumen ini dibangun untuk memudahkan pihak sekolah SMK Negeri 1 Pekanbaru untuk mengelola data-data customer yang ada di Laundry sekolah. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun sistem "Sistem Pengelola Laundry SMK Negeri 1 Pekanbaru".
+Dokumen Software Requirement Specification (SRS) merupakan dokumen spesifikasi perangkat lunak untuk membangun "Sistem Pengelola Laundry SMK Negeri 1 Pekanbaru". Dokumen ini dibangun untuk memudahkan pihak sekolah SMK Negeri 1 Pekanbaru untuk mengelola data-data customer yang ada di Laundry sekolah, sistem ini juga mengelola data inventori dari laundry. Sehingga dokumen ini dapat dijadikan acuan teknis untuk membangun sistem "Sistem Pengelola Laundry SMK Negeri 1 Pekanbaru".
 
 1.2   Lingkup
 ----------
-Sistem Pengelola Laundry SMK Negeri 1 Pekanbaru merupakan aplikasi yang kami bangun untuk mempermudah siswa-siswi SMK Negeri 1 dalam melakukan pengelolaan yang ada pada unit operasi sekolah yaitu unit operasi laundry sehingga memudahkan para siswa dalam melihat data-datanya dan mengelola data-data yang ada.
+Sistem Pengelola Laundry SMK Negeri 1 Pekanbaru merupakan aplikasi yang kami bangun untuk mempermudah siswa-siswi SMK Negeri 1 dalam melakukan pengelolaan yang ada pada unit operasi sekolah yaitu unit operasi laundry sehingga memudahkan para siswa dalam melihat data-datanya dan mengelola data-data cucian yang ada, mengelola persediaan barang maupun barang yang dibutuhkan dalam menjalankan usaha laundry yang ada di SMKN 1 Pekanbaru seperti deterjen, pelembut kain, bahan kimia pencucian, pengharum pakaian, hanger, hingga kemasan.
 
 1.3    Akronim, singkatan, definisi
 ----------
@@ -46,11 +46,14 @@ Bab selanjutnya yaitu menjelaskan sistem yang diterapkan pada aplikasi. Menjelas
 
 **BAB II Gambaran umum**
 ----------
-Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek Framework ini kami menganalisis kebutuhan suatu sekolah yaitu SMK Negeri 1 Pekanbaru. Kasus yang kami peroleh adalah tidak adanya pencatatan bagi siswa yang menggunakan unit operasi laundry sekolah sebagai sarana tempat kerja sekolah. Maka dari itu kami merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem pengelolaan laundry. Sehingga memudahkan para siswa dalam melakukan pengelolaan data-data dari customer. Software yang kami buat ini berbasis website dimana website sebagai admin, siswa, pelanggan. Sistem yang kami buat di dalamnya terdapat pemesanan online, angka pakaian kotor, bill pembayaran, status pesanan laundry, laporan peforma laundry, riwayat pelanggan. Berikut akan kami jelaskan sistem software kami, admin fungsi utama yaitu :
-- Menghasilkan laporan harian, mingguan, atau bulanan tentang kinerja bisnis.
+Pada zaman era globalisasi perkembangan teknologi begitu sangat pesat, salah satunya ialah perkembangan teknologi di bidang software engineering dimana software engineering dapat digunakan dalam kehidupan sehari - hari .dalam studi kasus Proyek Framework ini kami menganalisis kebutuhan suatu sekolah yaitu SMK Negeri 1 Pekanbaru. Kasus yang kami peroleh adalah tidak adanya pencatatan bagi siswa yang menggunakan unit operasi laundry sekolah sebagai sarana tempat kerja sekolah. Maka dari itu kami merancang sebuah sistem sesuai dengan kebutuhan sekolah dengan menerapkan sistem pengelolaan laundry dan juga inventori laundry. Sehingga memudahkan para siswa dalam melakukan pengelolaan data-data dari customer serta pendataan barang-barang inventori yang dibutuhkan dalam suatu laundry. Software yang kami buat ini berbasis website dimana website sebagai admin, siswa, pelanggan. Sistem yang kami buat di dalamnya terdapat pemesanan online, angka pakaian kotor, bill pembayaran, status pesanan laundry, laporan peforma laundry, riwayat pelanggan sedangkan bagian inventori memiliki fungsi pencatatan barang masuk, pencatatan barang keluar, laporan pemasukan barang serta pengeluaran barang. Berikut akan kami jelaskan sistem software kami, admin fungsi utama yaitu :
+- Menghasilkan laporan harian, mingguan, atau bulanan tentang kinerja laundry.
 - Melihat data tentang jumlah pesanan, pendapatan, dan tren pelanggan.
 - Mengelola status pesanan (dalam proses, siap diambil, sudah diambil, dll).
 - Melihat detail pesanan, termasuk jenis cucian, instruksi, dan waktu pengambilan.
+- Input Pencatatan Barang Masuk
+- Input Pencatatan Barang keluar
+- Laporan pemasukan dan pengeluaran stok barang
 
 Berikut ini fungsi customer :
 - Melacak status pesanan mereka (dalam proses, siap diambil, selesai).
@@ -58,12 +61,15 @@ Berikut ini fungsi customer :
 - Mengakses riwayat pesanan sebelumnya.
 - Melihat detail pesanan sebelumnya, termasuk tagihan.
 - Memberikan ulasan dan peringkat atas layanan yang diterima.
+- View Pencatatan Barang Masuk
+- View Pencatatan Barang keluar
+- View Laporan pemasukan dan pengeluaran stok barang
 
 
 2.1   Perspektif produk
 ----------
 Sistem pengelola laundry SMK Negeri 1 Pekanbaru adalah sebuah sistem pengelolaan sebuah laundry di Sekolah yang diaplikasikan pada website. Terdapat 2 jenis yaitu Siswa dan Pelanggan. Pengolahan data di kelola oleh siswa pada website dan pelanggan hanya melihat data dan status pencucian pada website.
-Pada sistem pengelola laundry data ini akan menampilkan isi  yang sudah diinputkan oleh siswa.
+Pada sistem pengelola laundry data ini akan menampilkan isi data dan persediaan barang yang sudah diinputkan oleh siswa.
 
 **2.1.1 Antarmuka sistem**
 

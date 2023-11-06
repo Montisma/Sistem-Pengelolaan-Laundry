@@ -123,6 +123,7 @@ Tidak ada
 | Input Data | Digunakan untuk memasukkan data-data |
 | Kembali | Digunakan untuk kembali ke halaman sebelumnya |
 | Edit | Digunakan untuk mengubah data |
+| Hapus | Digunakan untuk menghapus data |
 | View | Digunakan untuk menampilkan data |
 | Simpan | Digunakan untuk menyimpan data |
 

@@ -429,7 +429,7 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 | Id_laporan	| int	| Nomor ID dari laporan |
 | Nama	| varchar	| Nama Laporan |
 | Jumlah	| int |	Jumlah barang yang diinputkan |
-Tanggal	date	Tanggal laporan dibuat |
+| Tanggal	| date	| Tanggal laporan dibuat |
 | Barang_masuk	| varchar	| Jenis laporan |
 | Barang_keluar	| varchar	| Jenis laporan |
 

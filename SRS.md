@@ -381,7 +381,7 @@ Logika Struktur terdapat pada bagian 3.3.1
 **3.3.1 Logika Struktur Data**
 Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Database yang dijelaskan menggunakan ERD.
 
-![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2d56bfed46e38aba3147666e2d2cd8c495083414/Image/ERD%20Laundry.jpg)
+![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/2448c40030c526a1b811e74fefe5b34a2239bc7b/Image/ERD.png)
 
 **Tabel Siswa**
 

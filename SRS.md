@@ -502,7 +502,7 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 
 | Data Item |	Type |	Deskripsi |
 | ------ | ------ | ------ |
-| id	| Int | ID dari baranag |
+| id	| Int | ID dari barang |
 | nama |	varchar	| Nama dari barang |
 | quantity	| varchar	| Jumlah barang yang diinputkan |
 | satuan	| varchar	| Satuan barang yang diinputkan |
@@ -512,20 +512,20 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 
 | Data Item |	Type |	Deskripsi |
 | ------ | ------ | ------ |
-| id	| Int | ID dari baranag |
-| nama |	varchar	| Nama dari barang |
-| quantity	| varchar	| Jumlah barang yang diinputkan |
-| satuan	| varchar	| Satuan barang yang diinputkan |
+| id	| Int | ID dari barang masuk |
+| nama |	varchar	| Nama dari barang masuk |
+| quantity	| varchar	| Jumlah barang masuk yang diinputkan |
+| satuan	| varchar	| Satuan barang masuk yang diinputkan |
 | tanggal_masuk	| Date	| Tanggal barang masuk yang diinputkan |
 
-**Tabel Barang_masuks**
+**Tabel Barang_keluars**
 
 | Data Item |	Type |	Deskripsi |
 | ------ | ------ | ------ |
-| id	| Int | ID dari baranag |
-| nama |	varchar	| Nama dari barang |
-| quantity	| varchar	| Jumlah barang yang diinputkan |
-| satuan	| varchar	| Satuan barang yang diinputkan |
+| id	| Int | ID dari barang keluar |
+| nama |	varchar	| Nama dari barang keluar |
+| quantity	| varchar	| Jumlah barang keluar yang diinputkan |
+| satuan	| varchar	| Satuan barang keluar yang diinputkan |
 | tanggal_keluar	| Date	| Tanggal barang keluar yang diinputkan |
 
 **Job Desc**

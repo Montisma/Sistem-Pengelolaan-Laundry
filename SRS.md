@@ -460,55 +460,73 @@ Struktur data logika pada sistem Pengelola laundry yang terdapat struktur Databa
 
 ![enter image description here](https://github.com/Montisma/Sistem-Pengelolaan-Laundry/blob/b95acb52443183c6af8066c4b234a1ac5636fbb3/Image/ERD.png)
 
-**Tabel Siswa**
+**Tabel Admin**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| NISN| Int | NISN dari Siswa|
-| Username | Varchar | Username dari siswa |
-| Password | Varchar | Password dari username siswa |
-| Email | Varchar | Email siswa yang digunakan untuk membuat akun
-| No_HP | Int | Nomor Hp dari siswa
+| id | Int | id dari admin |
+| username | Varchar | Username dari admin |
+| password | Varchar | Password dari username admin |
+| email | Varchar | Email admin yang digunakan untuk login |
 
 **Tabel Pelanggan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| ID_Pelanggan | Int | ID dari pelanggan|
-| Username | Varchar | Username dari pelanggan|
-| Password | Varchar | Password dari username pelanggan|
-| Email | Varchar | Email pelanggan yang digunakan untuk membuat akun |
-| No_HP | Int | Nomor Hp dari pelanggan |
+| id | Int | ID dari pelanggan|
+| username | Varchar | Username dari pelanggan|
+| password | Varchar | Password dari username pelanggan|
+| email | Varchar | Email pelanggan yang digunakan untuk membuat akun |
+| no_hp | Int | Nomor Hp dari pelanggan |
+
+**Tabel List_harga**
+
+| Data Item | Type | Deskripsi |
+| ------ | ------ | ------ |
+| id_list | Varchar | ID dari list harga |
+| jenis_cucian | Varchar | Jenis Cucian |
+| harga | Varchar | Harga cucian |
 
 **Tabel Pesanan**
 
 | Data Item | Type | Deskripsi |
 | ------ | ------ | ------ |
-| ID_Pesanan| Int | ID dari pesanan yang dibuat|
-| berat| Int | Berat dari suatu pesanan|
-| status| Varchar | Status dari suatu pesanan (selesai, belum selesai)|
+| id_pesanan | Int | ID dari pesanan yang dibuat|
+| berat | Int | Berat dari suatu pesanan|
+| status | Varchar | Status dari suatu pesanan (selesai, belum selesai)|
 | tanggal_pemesanan | Date | Tanggal waktu pemesanan dibuat |
-| jenis_cucian | Int | Jenis cucian yang dipesan|
+| jenis_cucian | Varchar | Jenis cucian yang dipesan|
+| harga | Int | Harga cucian yang dipesan|
 
-**Tabel Barang**
-
-| Data Item |	Type |	Deskripsi |
-| ------ | ------ | ------ |
-| Id_barang	| INT | ID dari suatu baranag |
-| Nama |	varchar	| Nama dari barang |
-| Jumlah	| varchar	| Jumlah barang yang diinputkan |
-| Tanggal	| date	| Tanggal menginputkan barang |
-
-**Tabel Laporan**
+**Tabel Barangs**
 
 | Data Item |	Type |	Deskripsi |
 | ------ | ------ | ------ |
-| Id_laporan	| int	| Nomor ID dari laporan |
-| Nama	| varchar	| Nama Laporan |
-| Jumlah	| int |	Jumlah barang yang diinputkan |
-| Tanggal	| date	| Tanggal laporan dibuat |
-| Barang_masuk	| varchar	| Jenis laporan |
-| Barang_keluar	| varchar	| Jenis laporan |
+| id	| Int | ID dari baranag |
+| nama |	varchar	| Nama dari barang |
+| quantity	| varchar	| Jumlah barang yang diinputkan |
+| satuan	| varchar	| Satuan barang yang diinputkan |
+| harga	| Int	| Harga barang yang diinputkan |
+
+**Tabel Barang_masuks**
+
+| Data Item |	Type |	Deskripsi |
+| ------ | ------ | ------ |
+| id	| Int | ID dari baranag |
+| nama |	varchar	| Nama dari barang |
+| quantity	| varchar	| Jumlah barang yang diinputkan |
+| satuan	| varchar	| Satuan barang yang diinputkan |
+| tanggal_masuk	| Date	| Tanggal barang masuk yang diinputkan |
+
+**Tabel Barang_masuks**
+
+| Data Item |	Type |	Deskripsi |
+| ------ | ------ | ------ |
+| id	| Int | ID dari baranag |
+| nama |	varchar	| Nama dari barang |
+| quantity	| varchar	| Jumlah barang yang diinputkan |
+| satuan	| varchar	| Satuan barang yang diinputkan |
+| tanggal_keluar	| Date	| Tanggal barang keluar yang diinputkan |
 
 **Job Desc**
 ----------
